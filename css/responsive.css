@@ -1,0 +1,54 @@
+
+@media (max-width:992px) {
+    html{
+        font-size: 56.5%;
+    }
+    .navbar .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+        border: none;
+    }
+    .navbar .navbar-toggler-icon{
+        color: var(--white) !important;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .navbar .nav-item,
+    .navbar .social-media{
+        margin-top: 1rem;
+    }
+    .navbar{
+        background-color: var(--dark);
+    }
+
+    .services .card .card-info p{
+        width:32rem ;
+    }
+    .about .img-wrapper{
+        margin-top: 5rem;
+    }
+    .about p{
+        max-width: 450rem;
+    }
+    .review .card p{
+       max-width: 450rem;
+    }
+    
+}
+@media (max-width:768px) {
+    html{
+        font-size: 52.5%;
+    }
+    
+}
+@media (max-width:425px) {
+    html{
+        font-size: 46.5%;
+    }
+    .services .card .card-info p{
+        width:30rem ;
+    }
+    footer{
+        text-align: center;
+    }
+}
